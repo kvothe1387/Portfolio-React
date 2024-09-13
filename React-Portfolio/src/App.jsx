@@ -1,13 +1,15 @@
 
 import styles from './App.module.css';
-import { NavBar } from './components/NavBar/NavBar';
+import { Navbar } from "./components/Navbar/Navbar";
 
 function App() {
 
-  return <div className={styles.App}>
-    <NavBar />
+  return (
+    <div className={styles.App}>
+      <Navbar />
 
-  </div>;
+    </div>
+  );
 }
 
-export default App
+export default App;
