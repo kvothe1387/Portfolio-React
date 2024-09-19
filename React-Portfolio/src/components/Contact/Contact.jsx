@@ -1,32 +1,50 @@
-import React from "react";
-import { getImageUrl } from "../../utils";
-import styles from "./Contact.module.css"
+import React, { useState } from "react";
+import emailjs from "emailjs-com"
+
+import styles from "./Contact.module.css";
 
 export const Contact = () => {
+
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+  const [emailSent, setEmailSent] = useState('');
+
+  const submit = () => {
+    if (name && email && message) {
+      const serviceId = 'service_id';
+      const templateId = 'template_id';
+      const userId = 'user_id';
+      const templateParams = {
+        name,
+        email,
+        message
+      };
+
+      emailjs.send(serviceId, templateId, templateParams, userId)
+        .then(response => console.log(response))
+        .then(error => console.log(error));
+
+      setName('');
+      setEmail('');
+      setMessage('');
+      setEmailSent(true);
+    } else {
+      alert('The pleasure would me mine if all fields are entered.');
+    }
+  }
+
   return (
-    < footer id="contact" className={styles.container}  >
-      <div className={styles.text}>
-        <h2>Contact</h2>
-        <p>Reach out requested please!</p>
-      </div>
-      <ul className={styles.links}>
-        <li className={styles.link}>
-          <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
-          <a href="mailto:dmccullough488@gmail.com">dmccullough488@gmail.com</a>
-        </li>
+    <div id="contact-form">
+      <input type="text" placeholder="Your Name" value={name} onChange={e => setName(e.target.value)} required />
+      <input type="email" placeholder="Your email address" value={email} onChange={e => setEmail(e.target.value)} required />
+      <textarea placeholder="Kindly grace my inbox with your message here." value={message} onChange={e => setMessage(e.target.value)} required> </textarea>
+      <button onClick={submit}>Send Message</button>
 
-        <li className={styles.link}>
-          <img src={getImageUrl("contact/linkedinIcon.png")} alt="LinkedIN icon" />
-          <a href="https://www.linkedin.com/in/david-mccullough-ab2a257a">linkedin.com/in/david-mccullough-ab2a257a</a>
-        </li>
+      <span className={emailSent ? 'visable' : null}>I look forward to appreciating your message! </span>
 
-        <li className={styles.link}>
-          <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
-          <a href="https://github.com/kvothe1387">github.com/kvothe1387</a>
-        </li>
-
-      </ul>
-    </footer >
-
+    </div>
   );
+
 };
+
