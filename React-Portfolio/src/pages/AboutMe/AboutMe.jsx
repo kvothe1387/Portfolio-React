@@ -3,9 +3,9 @@ import React from "react";
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
 
-export const Hero = () => {
+export const AboutMe = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="Hero">
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm David</h1>
         <p className={styles.description}>I'm a full-stack developer with 4months of experience using React and NodeJS. Reach out if you'd like to learn more!</p>

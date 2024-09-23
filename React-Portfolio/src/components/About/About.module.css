@@ -25,9 +25,7 @@
   align-items: center;
 }
 
-.aboutImage {
-  width: 35%;
-}
+
 
 .aboutItems {
   color: var(--color-text);
@@ -62,6 +60,32 @@
 
 .aboutItem p {
   font-size: 25px;
+}
+
+.heroImg {
+  width: 250px;
+  max-height: 250px;
+  border-radius: 50px;
+  z-index: 1;
+
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+
+  50% {
+    transform: translate(0, 10px);
+  }
+
+  100% {
+    transform: translate(0, 0px);
+  }
 }
 
 @media screen and (max-width: 830px) {

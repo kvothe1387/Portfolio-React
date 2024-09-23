@@ -1,6 +1,8 @@
+@import "../../vars.css";
+
+
 form {
-  max-width: 600px;
-  margin: 0 auto;
+  max-width: 300px;
 }
 
 div {
@@ -14,7 +16,7 @@ label {
 
 input,
 textarea {
-  width: 100%;
+  width: 50px;
   padding: 10px;
   font-size: 1rem;
   border: 1px solid #ccc;

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { NavLink } from "react-router-dom";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 
@@ -8,7 +8,7 @@ export const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
-      <a className={styles.title} href="/">Portfolio</a>
+      <a className={styles.title} href="/">David McCullough</a>
 
       <div className={styles.menu}>
         <img className={styles.menuBtn}
@@ -22,10 +22,10 @@ export const Navbar = () => {
         <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
           onClick={() => setMenuOpen(false)}>
 
-          <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#resume">Resume</a></li>
+          <li><NavLink to="/about">About Me</NavLink></li>
+          <li><NavLink to="/projects">Portfolio</NavLink></li>
+          <li><NavLink to="/contact">Contact</NavLink></li>
+          <li><NavLink to="/resume">Resume</NavLink></li>
         </ul>
       </div>
     </nav>
