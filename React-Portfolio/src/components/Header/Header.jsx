@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar } from "../Navbar/Navbar.jsx";
+import { Navbar } from "../Navbar/Navbar";
 
 export const Header = () => {
   return (
@@ -8,4 +8,4 @@ export const Header = () => {
       <Navbar />
     </header>
   );
-}
+};
