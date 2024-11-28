@@ -49,7 +49,7 @@
 }
 
 .heroImg {
-  width: 250px;
+  width: 50%;
   max-height: 250px;
   border-radius: 50px;
   z-index: 1;
@@ -70,7 +70,7 @@
   }
 
   100% {
-    transform: translate(0, 0px);
+    transform: translate(0, -0px);
   }
 }
 
