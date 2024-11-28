@@ -26,7 +26,7 @@
   width: 45%;
   display: flex;
   flex-wrap: wrap;
-  gap: 11px;
+  gap: 37px;
 }
 
 .skill {
@@ -96,7 +96,7 @@
   margin-top: 6px;
   list-style-position: inside;
   font-size: 25px;
-  list-style: disc;
+  list-style-type: disc;
   margin-left: 17px;
 }
 

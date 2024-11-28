@@ -7,7 +7,7 @@ export const Contact = () => {
     < footer id="contact" className={styles.container}  >
       <div className={styles.text}>
         <h2>Contact</h2>
-        <p>Reach out requested please!</p>
+        <p>Your Reach out is kindly requested.</p>
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
