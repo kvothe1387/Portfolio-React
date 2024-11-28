@@ -26,7 +26,6 @@
 }
 
 
-
 .aboutItems {
   color: var(--color-text);
   display: flex;
@@ -62,8 +61,8 @@
   font-size: 25px;
 }
 
-.heroImg {
-  width: 250px;
+.aboutImg {
+  width: 35%;
   max-height: 250px;
   border-radius: 50px;
   z-index: 1;
