@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./NavBar.module.css";
+import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 
 export const Navbar = () => {
