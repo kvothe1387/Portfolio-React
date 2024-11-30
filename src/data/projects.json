@@ -2,7 +2,7 @@
   {
     "title": "HorrorScope",
     "imageSrc": "projects/horrorscope.png",
-    "description": "A funny & satirical Horrorscope webpage that one can use to learn about the negative traits of thier zodiac sign and how their earthly career will come to an end.",
+    "description": "A funny & satirical website where you can learn about the negative traits of your zodiac sign and how your earthly career will come to an end. Wtih currated spotify playlists.",
     "skills": [
       "Bootstrap",
       "JavaScript",
@@ -15,7 +15,7 @@
   {
     "title": "SQL Employee Tracker",
     "imageSrc": "projects/employeeTracker.png",
-    "description": "A command-line application built with Node.js, Inquirer, PostgreSQL, and TypeScript to manage a company's employee database.",
+    "description": "A Super Mario themed command-line application to effieciently manage a company's employee database.",
     "skills": [
       "Node",
       "Inquirer",
@@ -26,16 +26,16 @@
     "source": "https://github.com/kvothe1387/Employee-SQL-Tracker"
   },
   {
-    "title": "Project C",
+    "title": "README Generator",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "A command-line application that dynamically generates a README.md file from a user's input to help streamline the process of creating a README.",
     "skills": [
-      "React",
-      "Express",
-      "Node"
+      "Node",
+      "Inquirer",
+      "JavaScript"
     ],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/kvothe1387/README_Generator"
   },
   {
     "title": "Project D",
