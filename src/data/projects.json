@@ -1,15 +1,16 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "title": "HorrorScope",
+    "imageSrc": "projects/horrorscope.png",
+    "description": "A funny & satirical Horrorscope webpage that one can use to learn about the negative traits of thier zodiac sign and how their earthly career will come to an end.",
     "skills": [
-      "React",
-      "Express",
-      "Node"
+      "Bootstrap",
+      "JavaScript",
+      "CSS",
+      "HTML"
     ],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "demo": "https://kvothe1387.github.io/Horrorscope/",
+    "source": "https://github.com/kvothe1387/Horrorscope"
   },
   {
     "title": "Project B",
