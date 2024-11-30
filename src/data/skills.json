@@ -26,5 +26,9 @@
   {
     "title": "PostgresSQL",
     "imageSrc": "skills/postgres.png"
+  },
+  {
+    "title": "SQL",
+    "imageSrc": "skills/sql.png"
   }
 ]
