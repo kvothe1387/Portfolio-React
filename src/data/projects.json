@@ -13,17 +13,17 @@
     "source": "https://github.com/kvothe1387/Horrorscope"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "title": "SQL Employee Tracker",
+    "imageSrc": "projects/employeeTracker.png",
+    "description": "A command-line application built with Node.js, Inquirer, PostgreSQL, and TypeScript to manage a company's employee database.",
     "skills": [
-      "React",
-      "Express",
       "Node",
-      "Sass"
+      "Inquirer",
+      "TypeScript",
+      "PostgreSQL"
     ],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "demo": "https://drive.google.com/file/d/1iLQatd4tK6LEkHisU3DkvfU8ms4OEyYe/view",
+    "source": "https://github.com/kvothe1387/Employee-SQL-Tracker"
   },
   {
     "title": "Project C",
