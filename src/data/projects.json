@@ -1,8 +1,22 @@
 [
   {
+    "title": "Flavor Pidginhole",
+    "imageSrc": "projects/pidginhole.png",
+    "description": "A social media platform for people to share their favorite recipes and connect with other foodies.",
+    "skills": [
+      "MongoDB",
+      "GraphQL",
+      "React",
+      "Express",
+      "Node"
+    ],
+    "demo": "https://flavor-pidginhole.onrender.com/",
+    "source": "https://github.com/bungin/Flavor-Pidginhole"
+  },
+  {
     "title": "HorrorScope",
     "imageSrc": "projects/horrorscope.png",
-    "description": "A funny & satirical website where you can learn about the negative traits of your zodiac sign and how your earthly career will come to an end. Wtih currated spotify playlists.",
+    "description": "A website where you can learn about the negative traits of your zodiac sign and how your earthly career will come to an end. ",
     "skills": [
       "Bootstrap",
       "JavaScript",
@@ -28,8 +42,9 @@
   {
     "title": "README Generator",
     "imageSrc": "projects/project.png",
-    "description": "A command-line application that dynamically generates a README.md file from a user's input to help streamline the process of creating a README.",
+    "description": "A command line application that dynamically generates a README.md file from a user's input. ",
     "skills": [
+      "TypeScript",
       "Node",
       "Inquirer",
       "JavaScript"
