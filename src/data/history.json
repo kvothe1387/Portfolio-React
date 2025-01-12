@@ -1,35 +1,28 @@
 [
   {
-    "role": "Software Engineer",
-    "organisation": "Google",
-    "startDate": "Sept, 2022",
-    "endDate": "Present",
+    "role": "Regional Training Store Manager",
+    "organization": "Smashburger",
+    "startDate": "Oct, 2013",
+    "endDate": "Nov, 2020",
     "experiences": [
-      "Worked on Google Maps",
-      "Reduced load times by 50%"
+      "Trained new GMs, AMs, and entry-level managers in operations, P&L review, inventory, hiring, and onboarding.",
+      "Proctored ServSafe certifications and led staff development across multiple locations.",
+      "Consistently increased annual sales through local marketing, community fundraisers, and catering partnerships.",
+      "Reduced turnover to 3rd lowest in the East division during the 1st quarter as a new GM.",
+      "Ranked in the Top 10 for sales growth at 3 locations out of 150+ stores company-wide."
     ],
     "imageSrc": "history/google.png"
   },
   {
-    "role": "UI Designer",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2021",
-    "endDate": "Aug, 2022",
+    "role": "Assistant Store Manager",
+    "organization": "Taco Bell",
+    "startDate": "Oct, 2010",
+    "endDate": "Oct, 2013",
     "experiences": [
-      "Worked on Windows 11",
-      "Designed the control panel"
+      "Partnered with the store manager to maintain seamless day-to-day operations and implement improvements for long-term success.",
+      "Oversaw inventory control, cash management, and store opening/closing procedures to ensure operational efficiency.",
+      "Mentored and developed staff to achieve consistent in-store performance and operational excellence."
     ],
     "imageSrc": "history/microsoft.png"
-  },
-  {
-    "role": "SWE Intern",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2020",
-    "endDate": "Jun, 2020",
-    "experiences": [
-      "Worked on component library",
-      "Helped create UI components"
-    ],
-    "imageSrc": "history/netflix.png"
   }
 ]

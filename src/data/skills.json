@@ -24,12 +24,8 @@
     "imageSrc": "skills/javascript.png"
   },
   {
-    "title": "Postgres",
+    "title": "PostgreSQL",
     "imageSrc": "skills/postgres.png"
-  },
-  {
-    "title": "SQL",
-    "imageSrc": "skills/sql.png"
   },
   {
     "title": "mongoDB",
