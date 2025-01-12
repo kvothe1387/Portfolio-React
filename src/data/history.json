@@ -5,13 +5,13 @@
     "startDate": "Oct, 2013",
     "endDate": "Nov, 2020",
     "experiences": [
-      "Trained new GMs, AMs, and entry-level managers in operations, P&L review, inventory, hiring, and onboarding.",
+      "Trained new GMs, AMs, and entry-level managers in operations, P&L review, inventory, scheduling, and hiring.",
       "Proctored ServSafe certifications and led staff development across multiple locations.",
       "Consistently increased annual sales through local marketing, community fundraisers, and catering partnerships.",
       "Reduced turnover to 3rd lowest in the East division during the 1st quarter as a new GM.",
       "Ranked in the Top 10 for sales growth at 3 locations out of 150+ stores company-wide."
     ],
-    "imageSrc": "history/google.png"
+    "imageSrc": "history/smashburger.png"
   },
   {
     "role": "Assistant Store Manager",
@@ -23,6 +23,6 @@
       "Oversaw inventory control, cash management, and store opening/closing procedures to ensure operational efficiency.",
       "Mentored and developed staff to achieve consistent in-store performance and operational excellence."
     ],
-    "imageSrc": "history/microsoft.png"
+    "imageSrc": "history/tacobell.png"
   }
 ]
