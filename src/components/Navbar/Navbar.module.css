@@ -32,14 +32,20 @@
 }
 
 .menuItems a {
+  color: rgba(255, 255, 255, 0.9);
+  /* Increased opacity for better contrast */
+  font-weight: 500;
+  /* Medium font weight for better visibility */
+  transition: color 0.3s ease;
+  /* Smooth transition for hover effects */
   font-size: 25px;
-  color: var(--color-text);
-  text-decoration: none;
 }
 
 .menuItems a:hover {
-  background-size: 100% 100%;
-  color: rgb(23, 168, 168);
+  color: rgba(255, 255, 255, 1);
+  /* Full opacity on hover */
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  /* Subtle glow effect */
 }
 
 @media screen and (max-width: 830px) {
