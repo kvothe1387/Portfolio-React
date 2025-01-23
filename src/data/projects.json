@@ -2,7 +2,7 @@
   {
     "title": "Flavor Pidginhole",
     "imageSrc": "projects/pidginhole.png",
-    "description": "A social media platform for people to share their favorite recipes and connect with other foodies.",
+    "description": "A social media platform for people to connect & share their favorite recipes with other foodies.",
     "skills": [
       "MongoDB",
       "GraphQL",
