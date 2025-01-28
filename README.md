@@ -38,8 +38,8 @@ Here are some of the tools and technologies I work with:
 Feel free to reach out to me for collaboration or if you have any questions!
 
 - **Email**: dmccullough488@gmail.com
-- **LinkedIn**: https://www.linkedin.com/in/david-mccullough-ab2a257a/
-- **Portfolio Website**: https://astounding-banoffee-8f69e2.netlify.app/
+- **LinkedIn**: https://www.linkedin.com/in/davidmccullough1387
+- - **Portfolio Website**: https://astounding-banoffee-8f69e2.netlify.app/
 
 ---
 
