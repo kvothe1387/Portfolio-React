@@ -1,13 +1,5 @@
 [
   {
-    "title": "HTML",
-    "imageSrc": "skills/html.png"
-  },
-  {
-    "title": "CSS",
-    "imageSrc": "skills/css.png"
-  },
-  {
     "title": "React",
     "imageSrc": "skills/react.png"
   },
@@ -30,5 +22,13 @@
   {
     "title": "mongoDB",
     "imageSrc": "skills/mongodb.png"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
   }
 ]

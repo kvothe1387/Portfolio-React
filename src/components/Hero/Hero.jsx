@@ -11,9 +11,6 @@ export const Hero = () => {
         <p className={styles.description}>
           We adore chaos because we love to produce order. ~ M.C. Escher
         </p>
-        <a href="mailto:dmccullough488@gmail.com" className={styles.contactBtn}>
-          Contact Me
-        </a>
       </div>
       <img
         src={getImageUrl("hero/heroImage.png")}
