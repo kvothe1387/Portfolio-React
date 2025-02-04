@@ -2,7 +2,7 @@
   {
     "title": "Flavor Pidginhole",
     "imageSrc": "projects/pidginhole.png",
-    "description": "A social media platform for people to connect & share their favorite recipes with other foodies.",
+    "description": "Developed a full-stack social media platform where users can create, share, and interact with recipes. ",
     "skills": [
       "MongoDB",
       "GraphQL",
@@ -29,7 +29,7 @@
   {
     "title": "Tech Quiz",
     "imageSrc": "projects/project.png",
-    "description": "This is a project where I added component & end-to-end testing using Cypress to a pre-existing quiz app.",
+    "description": "Built an interactive quiz application to demonstrate end-to-end (E2E) and component testing with Cypress.",
     "skills": [
       "Cypress",
       "Express",
@@ -41,7 +41,7 @@
   {
     "title": "Social Network API",
     "imageSrc": "projects/project.png",
-    "description": "A RESTful API application that allows users to create profiles, post thoughts, react to other users' thoughts.",
+    "description": "Developed a RESTful API for social networking features including user authentication, friend connections, and post management.",
     "skills": [
       "MongoDB",
       "Express",
@@ -89,7 +89,7 @@
   {
     "title": "Study Guide",
     "imageSrc": "projects/studyGuide.png",
-    "description": "This is a project I made to help me laern the basics of web development prior to starting a software development bootcamp.",
+    "description": "This is a project I made to help me laern the basics of web development.",
     "skills": [
       "HTML",
       "CSS",
