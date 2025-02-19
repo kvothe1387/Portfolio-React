@@ -5,18 +5,32 @@
     "description": "Developed a full-stack social media platform where users can create, share, and interact with recipes. ",
     "skills": [
       "MongoDB",
+      "Node",
       "GraphQL",
       "React",
-      "Express",
-      "Node"
+      "TypeScript",
+      "Render"
     ],
     "demo": "https://flavor-pidginhole.onrender.com/",
     "source": "https://github.com/bungin/Flavor-Pidginhole"
   },
   {
+    "title": "Travel Journal",
+    "imageSrc": "projects/travJ.png",
+    "description": "A personal travel diary built with React and deployed on GitHub Pages. This single-page application showcases my travel experiences.",
+    "skills": [
+      "React",
+      "JavaScript",
+      "CSS",
+      "GitHub Pages"
+    ],
+    "demo": "https://kvothe1387.github.io/Travel-Journal/",
+    "source": "https://github.com/kvothe1387/Travel-Journal"
+  },
+  {
     "title": "HorrorScope",
     "imageSrc": "projects/horrorscope.png",
-    "description": "A website where you can learn about the negative traits of your zodiac sign and how your earthly career will come to an end. ",
+    "description": "A website where you can learn about the negative traits of your zodiac sign and how your earthly career will come to an end with spotify playlist link. ",
     "skills": [
       "Bootstrap",
       "HTML",
@@ -34,7 +48,8 @@
       "Cypress",
       "Express",
       "React",
-      "TypeScript"
+      "TypeScript",
+      "Node"
     ],
     "source": "https://github.com/kvothe1387/Quiz-Cypress-Testing"
   },
@@ -85,17 +100,5 @@
     ],
     "demo": "https://drive.google.com/file/d/1LrTege1p_1PFeRU3TlgoV8l2QnyWuYB6/view?usp=sharing",
     "source": "https://github.com/kvothe1387/README_Generator"
-  },
-  {
-    "title": "Study Guide",
-    "imageSrc": "projects/studyGuide.png",
-    "description": "This is a project I made to help me laern the basics of web development.",
-    "skills": [
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ],
-    "demo": "https://kvothe1387.github.io/prework-study-guide/",
-    "source": "https://github.com/kvothe1387/prework-study-guide"
   }
 ]

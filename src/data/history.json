@@ -3,28 +3,18 @@
     "role": "Restaurant Training Manager",
     "organization": "Smashburger",
     "startDate": "Oct, 2013",
-    "endDate": "Nov, 2020",
+    "endDate": "Oct, 2020",
     "experiences": [
-      "Achieved the 3rd lowest turnover rate in the East division in my first quarter as a newly promoted Store Manager, competing against 150+ stores.",
-      "Led three teams to achieve Top 10 rankings in company-wide performance metrics across 300+ stores. ",
-      "Developed and mentored four Assistant Restaurant Managers, successfully promoting them to Restaurant Manager roles.",
-      "Partnered with K-State fraternities and sororities to host 13 fundraising events, driving community impact and increased sales.",
+      "Achieved 3rd lowest turnover rate in East division (150+ stores) during first quarter as Store Manager.",
+      "Recognized with High 5 Achiever Award for outstanding performance and leadership excellence.",
+      "Led cross-functional teams of 20+ staff members, achieving top 3% performance ranking among 300+ locations.",
+      "Created and executed training programs leading to successful promotion of 4 assistant managers.",
       "Demonstrated exceptional financial acumen by forecasting sales within 0.1% of actual revenue in six or more months.",
-      "2nd place in a national sales contest earning a $7400 reward.",
-      "High 5 Achiever Award Nominee."
+      "Developed and implemented digital training systems, reducing onboarding time by 25%.",
+      "Orchestrated 13 successful fundraising events in partnership with K-State Greek organizations.",
+      "Facilitated 2 successful new store openings, including training and development of 50+ staff members.",
+      "Regional ServSafe food safety certification proctor."
     ],
     "imageSrc": "history/smashburger.png"
-  },
-  {
-    "role": "Assistant Store Manager",
-    "organization": "Taco Bell",
-    "startDate": "Oct, 2010",
-    "endDate": "Oct, 2013",
-    "experiences": [
-      "Partnered with the store manager to maintain seamless day-to-day operations and implement improvements for long-term success.",
-      "Oversaw inventory control, cash management, and store opening/closing procedures to ensure operational efficiency.",
-      "Mentored and developed staff to achieve consistent in-store performance and operational excellence."
-    ],
-    "imageSrc": "history/tacobell.png"
   }
 ]
