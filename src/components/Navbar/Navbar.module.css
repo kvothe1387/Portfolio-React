@@ -2,12 +2,40 @@
 
 .navbar {
   position: relative;
+  top: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 61px;
+  padding: 20px 10%;
   z-index: 2;
-  margin: 0 10%;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  margin: 0;
+  width: 100%;
+}
+
+.navbarScrolled {
+  background-color: rgba(25, 55, 109, 0.9);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navItem {
+  margin: 0 16px;
+  position: relative;
+}
+
+.navItem:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: var(--color-primary);
+  transition: width 0.3s ease;
+}
+
+.navItem:hover:after {
+  width: 100%;
 }
 
 .title {
@@ -15,10 +43,48 @@
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
+  position: relative;
+  z-index: 2;
+  /* Add a subtle glow behind the logo text */
+  text-shadow: 0 0 20px rgba(var(--color-primary-rgb), 0.4);
+}
+
+.title:hover {
+  text-shadow: 0 0 15px rgba(var(--color-primary-rgb), 0.7);
 }
 
 .menuBtn {
   display: none;
+  background: transparent;
+  border: none;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  cursor: pointer;
+  z-index: 4;
+}
+
+.menuBtn span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  margin: 6px 0;
+  background-color: var(--color-text);
+  border-radius: 3px;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Animation for menu button (hamburger to X) */
+.menuBtnOpen span:nth-child(1) {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.menuBtnOpen span:nth-child(2) {
+  opacity: 0;
+}
+
+.menuBtnOpen span:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -6px);
 }
 
 .menu {
@@ -27,18 +93,26 @@
 
 .menuItems {
   display: flex;
-  gap: 47px;
-  list-style: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+  border-radius: 10px;
+  background: rgb(25, 55, 109);
+  background: linear-gradient(0deg,
+      rgba(25, 55, 109, .2) 0%,
+      rgba(25, 55, 109, 1) 100%);
+  padding: 24px 33px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .menuItems a {
+  display: inline-block;
+  padding: 10px 15px;
   color: rgba(255, 255, 255, 0.9);
-  /* Increased opacity for better contrast */
   font-weight: 500;
-  /* Medium font weight for better visibility */
   transition: color 0.3s ease;
-  /* Smooth transition for hover effects */
   font-size: 25px;
+  text-decoration: none;
 }
 
 .menuItems a:hover {
@@ -48,12 +122,23 @@
   /* Subtle glow effect */
 }
 
-@media screen and (max-width: 830px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
+.menuItems a.active {
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
 
+.menuItems a.active:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: var(--color-primary);
+}
+
+/* Mobile and Tablet Styles */
+@media screen and (max-width: 830px) {
   .menu {
     position: absolute;
     right: 0;
@@ -70,21 +155,47 @@
   }
 
   .menuItems {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    gap: 13px;
-    border-radius: 10px;
-    background: rgb(25, 55, 109);
-    background: linear-gradient(0deg,
-        rgba(25, 55, 109, .2) 0%,
-        rgba(25, 55, 109, 1) 100%);
-    padding: 24px 33px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    /* Hidden by default on mobile */
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    pointer-events: none;
   }
 
   .menuOpen {
     display: flex;
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: all;
     z-index: 1;
   }
+}
+
+/* Small Mobile Styles */
+@media screen and (max-width: 480px) {
+  .navbar {
+    padding-top: 30px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .menuItems a {
+    font-size: 20px;
+  }
+}
+
+/* Desktop Styles */
+@media screen and (min-width: 831px) {
+  .menuItems {
+    flex-direction: row;
+    background: none;
+    box-shadow: none;
+    padding: 0;
+    opacity: 1;
+    transform: none;
+    pointer-events: auto;
+  }
+
 }

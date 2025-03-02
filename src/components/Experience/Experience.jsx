@@ -13,7 +13,7 @@ export const Experience = () => {
         <div className={styles.skills}>
           {skills.map((skill, id) => {
             return (
-              <div key={id} className={styles.skill}>
+              <div key={id} className={styles.skillItem}>
                 <div className={styles.skillImageContainer}>
                   <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
                 </div>

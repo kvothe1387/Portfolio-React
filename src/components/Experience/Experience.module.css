@@ -56,6 +56,39 @@
   font-family: var(--font-roboto);
 }
 
+.skillItem {
+  transition: transform 0.2s ease;
+  cursor: default;
+}
+
+.skillItem:hover {
+  transform: translateX(5px);
+}
+
+.skillEmoji {
+  display: inline-block;
+  margin-right: 10px;
+  transform-origin: center;
+}
+
+.skillItem:hover .skillEmoji {
+  animation: pulse 0.5s;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
 .history {
   width: 45%;
   display: flex;
