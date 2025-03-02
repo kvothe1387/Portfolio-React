@@ -7,16 +7,19 @@ export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hello, I'm David McCullough</h1>
-        <p className={styles.description}>
-          I'm a full-stack developer with a unique background in leadership and operational excellence. I combine meticulous attention to detail with a passion for building elegant, efficient solutions—all while developing the people around me.
-        </p>
-
-        <img
-          src={getImageUrl("hero/heroImage.png")}
-          alt="David McCullough"
-          className={styles.heroImg}
-        />
+        <div className={styles.heroHeader}>
+          <div className={styles.textContent}>
+            <h1 className={styles.title}>Hello, I'm David McCullough</h1>
+            <p className={styles.description}>
+              I'm a full-stack developer with a unique background in leadership and operational excellence. I combine meticulous attention to detail with a passion for building elegant, efficient solutions—all while developing the people around me.
+            </p>
+          </div>
+          <img
+            src={getImageUrl("hero/heroImage.png")}
+            alt="David McCullough"
+            className={styles.heroImg}
+          />
+        </div>
 
         <section className={styles.skillsSection}>
           <div className={styles.skillsColumn}>

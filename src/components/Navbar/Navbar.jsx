@@ -16,7 +16,7 @@ export const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Close menu on Escape key press
+  // Close menu on Escape key press or when clicking outside
   useEffect(() => {
     const handleKeyDown = (event) => {
       if (event.key === "Escape") {
@@ -24,37 +24,58 @@ export const Navbar = () => {
       }
     };
 
+    const handleClickOutside = (event) => {
+      if (menuOpen && !event.target.closest(`.${styles.menu}`) && !event.target.closest(`.${styles.menuBtn}`)) {
+        setMenuOpen(false);
+      }
+    };
+
     window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
-  }, []);
+    document.addEventListener("click", handleClickOutside);
+
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+      document.removeEventListener("click", handleClickOutside);
+    };
+  }, [menuOpen]);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
 
   return (
     <nav className={`${styles.navbar} ${scrolled ? styles.navbarScrolled : ""}`} role="navigation">
-      <a className={styles.title} href="/">
-        Full-Stack Developer | Process Optimizer | People Developer
-      </a>
+      <div className={styles.navbarContainer}>
+        <a className={styles.title} href="/">
 
-      <div className={styles.menu}>
-        <button
-          className={`${styles.menuBtn} ${menuOpen ? styles.menuBtnOpen : ""}`}
-          onClick={() => setMenuOpen(!menuOpen)}
-          aria-label="Toggle menu"
-          aria-expanded={menuOpen}
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
+          <span className={styles.titleSub}>Full-Stack Developer | Process Optimizer | People Developer</span>
+        </a>
 
-        <ul
-          className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ""}`}
-          onClick={() => setMenuOpen(false)}
-        >
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div className={styles.menu}>
+          <button
+            className={`${styles.menuBtn} ${menuOpen ? styles.menuBtnOpen : ""}`}
+            onClick={toggleMenu}
+            aria-label="Toggle menu"
+            aria-expanded={menuOpen}
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <ul
+            className={`${styles.menuItems} ${menuOpen ? styles.menuOpen : ""}`}
+          >
+            <li><a href="#about" onClick={closeMenu}>About Me</a></li>
+            <li><a href="#experience" onClick={closeMenu}>Experience</a></li>
+            <li><a href="#projects" onClick={closeMenu}>Projects</a></li>
+            <li><a href="#contact" onClick={closeMenu} className={styles.contactLink}>Contact</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
   );

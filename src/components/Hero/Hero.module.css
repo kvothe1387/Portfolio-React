@@ -9,25 +9,32 @@
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .content {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--color-text);
+  z-index: 1;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.heroHeader {
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  color: var(--color-text);
-  z-index: 1;
-  gap: 30px;
   width: 100%;
+  margin-bottom: 40px;
+  gap: 30px;
 }
 
 .textContent {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  max-width: 65%;
+  flex: 1;
+  max-width: 700px;
 }
 
 .title {
@@ -43,45 +50,24 @@
 }
 
 .description {
-  font-size: 30px;
+  font-size: 22px;
   font-family: var(--font-roboto);
-  margin-bottom: 50px;
+  line-height: 1.5;
   color: rgba(255, 255, 255, 0.9);
-}
-
-.contactBtn {
-  text-decoration: none;
-  background-color: var(--color-primary);
-  color: var(--color-text);
-  border-radius: 100px;
-  font-size: 30px;
-  font-weight: 600;
-  padding: 17px 26px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  transition: all 0.3s ease-in-out;
-}
-
-.contactBtn:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-  transform: translateY(-2px);
-  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.1);
-}
-
-.contactBtn:active {
-  transform: translateY(1px);
 }
 
 .heroImg {
   width: 200px;
   height: 200px;
+  min-width: 150px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
   border: 3px solid rgba(87, 108, 188, 0.3);
   border-radius: 50%;
-  margin-bottom: 40px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   animation: floating 5s ease-in-out infinite;
   z-index: 1;
   object-fit: cover;
+  flex-shrink: 0;
 }
 
 .heroImg:hover {
@@ -103,50 +89,15 @@
   }
 }
 
-.topBlur {
-  position: absolute;
-  width: min(50vw, 700px);
-  height: min(50vw, 700px);
-  min-width: 350px;
-  min-height: 250px;
-  top: -10vh;
-  left: -5vw;
-  border-radius: 764px;
-  background: rgba(25, 55, 109, 0.7);
-  filter: blur(100px);
-  z-index: 0;
-}
-
-.bottomBlur {
-  position: absolute;
-  width: min(70vw, 900px);
-  height: min(50vw, 700px);
-  min-width: 350px;
-  min-height: 250px;
-  top: 246px;
-  right: -10vw;
-  border-radius: 764px;
-  background: rgba(25, 55, 109, 0.7);
-  filter: blur(100px);
-  z-index: 0;
-}
-
-.topBlur,
-.bottomBlur {
-  will-change: transform, opacity;
-  pointer-events: none;
-  /* Avoid blocking interactions */
-}
-
-.skillsContainer {
+.skillsSection {
   display: flex;
-  gap: 40px;
+  flex-direction: row;
   width: 100%;
-  margin-top: 10px;
+  gap: 40px;
   justify-content: space-between;
 }
 
-.skillColumn {
+.skillsColumn {
   flex: 1;
   max-width: 48%;
 }
@@ -166,76 +117,65 @@
   margin: 0;
 }
 
-.skillsList li {
+.skillItem {
   font-size: 16px;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   display: flex;
-  align-items: center;
-  gap: 8px;
+  align-items: flex-start;
+  gap: 12px;
   transition: transform 0.2s ease;
+  padding: 8px;
+  border-radius: 8px;
 }
 
-.skillsList li:hover {
+.skillItem:hover {
   transform: translateX(3px);
+  background-color: rgba(255, 255, 255, 0.05);
 }
 
-.skillsList li span {
-  font-size: 20px;
-  display: inline-block;
-  margin-right: 5px;
-}
-
-/* Emoji styling */
-.skill-icon {
-  font-size: 24px;
-  margin-right: 14px;
+.skillIcon {
+  font-size: 22px;
   flex-shrink: 0;
+  margin-top: 2px;
 }
 
-/* Skill text */
-.skill-text {
+.skillText {
   font-size: 16px;
   line-height: 1.5;
   color: rgba(255, 255, 255, 0.9);
 }
 
 /* Responsive adjustments */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
+  .heroHeader {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .textContent {
+    max-width: 100%;
+  }
+
   .title {
     font-size: 48px;
   }
+}
 
-  .description {
-    font-size: 22px;
-  }
-
+@media screen and (max-width: 768px) {
   .skillsSection {
     flex-direction: column;
   }
 
-  .skillItem {
-    padding: 10px;
+  .skillsColumn {
+    max-width: 100%;
   }
 
-  .skillIcon {
-    font-size: 18px;
-  }
-
-  .skillText {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 830px) {
   .title {
-    font-size: 48px;
-    /* Reduced from 72px */
+    font-size: 42px;
   }
 
   .description {
-    font-size: 22px;
-    /* Reduced from 30px */
-    text-align: center;
+    font-size: 18px;
   }
 }
 
@@ -252,17 +192,8 @@
     width: 150px;
     height: 150px;
   }
-}
 
-@media (min-width: 768px) {
-  .content {
-    display: flex;
-    flex-direction: column;
-    max-width: 800px;
-  }
-
-  .content ul {
-    columns: 2;
-    column-gap: 40px;
+  .skillIcon {
+    font-size: 18px;
   }
 }

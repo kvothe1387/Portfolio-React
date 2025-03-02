@@ -37,9 +37,7 @@ export const About = () => {
             <img src={getImageUrl("about/serverIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
               <h3>LEGO'ing My Restaurant Career into Full-Stack Development </h3>
-              <p>Leveraging leadership skills from managing high-performing teams in the restaurant industry, I'm
-                now applying that drive to build dynamic, user-friendly applications. Recently, I earned my Software
-                Development Certificate from the University of Kansas, and I'm excited to continue growing in tech!
+              <p>Applying leadership and team management skills from the restaurant industry to build dynamic, user-friendly applications. My background in high-pressure environments enhances my problem-solving approach to coding. Recently earned my Software Development Certificate from the University of Kansas and excited to continue growing in tech!
               </p>
             </div>
           </li>
