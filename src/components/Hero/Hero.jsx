@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "./Hero.module.css";
-//import heroImage from "./assets/heroImage.png";
+import { getImageUrl } from "../../utils";
 
 export const Hero = () => {
   return (
@@ -11,6 +11,12 @@ export const Hero = () => {
         <p className={styles.description}>
           I'm a full-stack developer with a unique background in leadership and operational excellence. I combine meticulous attention to detail with a passion for building elegant, efficient solutions—all while developing the people around me.
         </p>
+
+        <img
+          src={getImageUrl("hero/heroImage.png")}
+          alt="David McCullough"
+          className={styles.heroImg}
+        />
 
         <section className={styles.skillsSection}>
           <div className={styles.skillsColumn}>

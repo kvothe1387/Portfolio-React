@@ -3,20 +3,31 @@
 .container {
   position: relative;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  margin-top: 49px;
+  margin-top: 60px;
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
+  padding-bottom: 20px;
 }
 
 .content {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   color: var(--color-text);
   z-index: 1;
+  gap: 30px;
+  width: 100%;
+}
+
+.textContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 65%;
 }
 
 .title {
@@ -60,20 +71,22 @@
   transform: translateY(1px);
 }
 
-
 .heroImg {
-  max-width: 325px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
-  border: 4px solid rgba(255, 255, 255, 0.1);
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+  border: 3px solid rgba(87, 108, 188, 0.3);
   border-radius: 50%;
-  /* Creates a softer, more polished look */
+  margin-bottom: 40px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   animation: floating 5s ease-in-out infinite;
+  z-index: 1;
+  object-fit: cover;
 }
 
 .heroImg:hover {
-  transform: rotate(3deg) scale(1.02);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+  transform: rotate(2deg) scale(1.05);
+  box-shadow: 0 12px 30px rgba(87, 108, 188, 0.4);
 }
 
 @keyframes floating {
@@ -82,7 +95,7 @@
   }
 
   50% {
-    transform: translate(0, 12px) rotate(1deg);
+    transform: translate(0, 10px) rotate(1deg);
   }
 
   100% {
@@ -125,52 +138,51 @@
   /* Avoid blocking interactions */
 }
 
-.skills-section {
+.skillsContainer {
   display: flex;
-  flex-wrap: wrap;
+  gap: 40px;
+  width: 100%;
+  margin-top: 10px;
   justify-content: space-between;
-  gap: 30px;
-  padding: 40px 0;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
-/* Column styling */
-.skills-column {
+.skillColumn {
   flex: 1;
-  min-width: 300px;
+  max-width: 48%;
 }
 
-/* Column heading */
-.skills-heading {
-  font-size: 1.5rem;
+.skillsHeading {
+  font-size: 20px;
   font-weight: 600;
-  margin-bottom: 25px;
-  color: var(--color-primary, #4a8eff);
-  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
-  padding-bottom: 10px;
+  margin-bottom: 15px;
+  color: var(--color-primary);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 8px;
 }
 
-/* List styling */
-.skills-list {
+.skillsList {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
-/* Individual skill item */
-.skill-item {
+.skillsList li {
+  font-size: 16px;
+  margin-bottom: 10px;
   display: flex;
-  align-items: flex-start;
-  margin-bottom: 24px;
-  background-color: rgba(25, 55, 109, 0.3);
-  border-radius: 8px;
-  padding: 16px;
-  transition: transform 0.2s, background-color 0.2s;
+  align-items: center;
+  gap: 8px;
+  transition: transform 0.2s ease;
 }
 
-.skill-item:hover {
-  transform: translateY(-3px);
-  background-color: rgba(25, 55, 109, 0.5);
+.skillsList li:hover {
+  transform: translateX(3px);
+}
+
+.skillsList li span {
+  font-size: 20px;
+  display: inline-block;
+  margin-right: 5px;
 }
 
 /* Emoji styling */
@@ -188,14 +200,29 @@
 }
 
 /* Responsive adjustments */
-@media (max-width: 768px) {
-  .skills-section {
-    flex-direction: column;
-    padding: 30px 15px;
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 48px;
   }
 
-  .skills-column {
-    width: 100%;
+  .description {
+    font-size: 22px;
+  }
+
+  .skillsSection {
+    flex-direction: column;
+  }
+
+  .skillItem {
+    padding: 10px;
+  }
+
+  .skillIcon {
+    font-size: 18px;
+  }
+
+  .skillText {
+    font-size: 14px;
   }
 }
 
@@ -216,31 +243,14 @@
   .title {
     font-size: 36px;
   }
-}
-
-@media screen and (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .title {
-    font-size: 50px;
-  }
 
   .description {
-    font-size: 22px;
-    text-align: center;
+    font-size: 16px;
   }
 
   .heroImg {
-    margin-top: 30px;
-  }
-
-  .contactBtn {
-    font-size: 22px;
-    padding: 14px 22px;
+    width: 150px;
+    height: 150px;
   }
 }
 
