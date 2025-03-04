@@ -4,12 +4,12 @@
     "imageSrc": "projects/pidginhole.png",
     "description": "Developed a full-stack social media platform where users can create, share, and interact with recipes. ",
     "skills": [
-      "MongoDB",
-      "Node",
-      "GraphQL",
-      "React",
       "TypeScript",
-      "Render"
+      "MongoDB",
+      "Express",
+      "React",
+      "Node",
+      "GraphQL"
     ],
     "demo": "https://flavor-pidginhole.onrender.com/",
     "source": "https://github.com/bungin/Flavor-Pidginhole"
@@ -32,6 +32,7 @@
     "imageSrc": "projects/kanban.png",
     "description": "a Kanban board designed for Agile teams. It features a secure login system where users can log in, manage their work tasks, and have their session authenticated using JSON Web Tokens (JWT).",
     "skills": [
+      "TypeScript",
       "Postgres",
       "Express",
       "React",
@@ -41,14 +42,15 @@
     "source": "https://github.com/kvothe1387/Kanban_Board"
   },
   {
-    "title": "Tech Quiz",
+    "title": "Quiz Guy",
     "imageSrc": "projects/project.png",
-    "description": "Built an interactive quiz application to demonstrate end-to-end (E2E) and component testing with Cypress.",
+    "description": "An interactive tech quiz application with end-to-end (E2E) and component testing using Cypress.",
     "skills": [
+      "TypeScript",
       "Cypress",
+      "Postgres",
       "Express",
       "React",
-      "TypeScript",
       "Node"
     ],
     "source": "https://github.com/kvothe1387/Quiz-Cypress-Testing"
@@ -58,10 +60,11 @@
     "imageSrc": "projects/project.png",
     "description": "Developed a RESTful API for social networking features including user authentication, friend connections, and post management.",
     "skills": [
+      "TypeScript",
       "MongoDB",
       "Express",
-      "Node",
-      "TypeScript"
+      "React",
+      "Node"
     ],
     "demo": "https://drive.google.com/file/d/1eERLrUSetNTFRvUgIdEQjqa0rgHf0RTn/view",
     "source": "https://github.com/kvothe1387/Social_Network_API"
@@ -81,9 +84,9 @@
     "imageSrc": "projects/employeeTracker.png",
     "description": "A Super Mario themed command-line application to effieciently manage a company's employee database.",
     "skills": [
-      "Node",
       "TypeScript",
       "Postgres",
+      "Node",
       "Inquirer"
     ],
     "demo": "https://drive.google.com/file/d/1iLQatd4tK6LEkHisU3DkvfU8ms4OEyYe/view",
@@ -94,9 +97,9 @@
     "imageSrc": "projects/project.png",
     "description": "A command line application that dynamically generates a README.md file from a user's input. ",
     "skills": [
+      "JavaScript",
       "Node",
-      "Inquirer",
-      "JavaScript"
+      "Inquirer"
     ],
     "demo": "https://drive.google.com/file/d/1LrTege1p_1PFeRU3TlgoV8l2QnyWuYB6/view?usp=sharing",
     "source": "https://github.com/kvothe1387/README_Generator"
