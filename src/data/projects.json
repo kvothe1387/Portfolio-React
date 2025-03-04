@@ -28,17 +28,17 @@
     "source": "https://github.com/kvothe1387/Travel-Journal"
   },
   {
-    "title": "HorrorScope",
-    "imageSrc": "projects/horrorscope.png",
-    "description": "A website where you can learn about the negative traits of your zodiac sign and how your earthly career will come to an end with spotify playlist link. ",
+    "title": "Kanban Board",
+    "imageSrc": "projects/kanban.png",
+    "description": "a Kanban board designed for Agile teams. It features a secure login system where users can log in, manage their work tasks, and have their session authenticated using JSON Web Tokens (JWT).",
     "skills": [
-      "Bootstrap",
-      "HTML",
-      "JavaScript",
-      "CSS"
+      "Postgres",
+      "Express",
+      "React",
+      "Node"
     ],
-    "demo": "https://kvothe1387.github.io/Horrorscope/",
-    "source": "https://github.com/kvothe1387/Horrorscope"
+    "demo": "https://kanban-board-bap0.onrender.com/",
+    "source": "https://github.com/kvothe1387/Kanban_Board"
   },
   {
     "title": "Tech Quiz",
