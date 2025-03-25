@@ -93,15 +93,15 @@
     "source": "https://github.com/kvothe1387/Employee-SQL-Tracker"
   },
   {
-    "title": "README Generator",
-    "imageSrc": "projects/project.png",
-    "description": "A command line application that dynamically generates a README.md file from a user's input. ",
+    "title": "Tenzies",
+    "imageSrc": "projects/tenzies.png",
+    "description": "A simple yet addictive game where you roll dice until all of them show the same value. You can click on individual dice to 'hold' them between rolls, gradually working towards getting all ten dice to display the same number.",
     "skills": [
+      "React",
       "JavaScript",
-      "Node",
-      "Inquirer"
+      "CSS"
     ],
-    "demo": "https://drive.google.com/file/d/1LrTege1p_1PFeRU3TlgoV8l2QnyWuYB6/view?usp=sharing",
-    "source": "https://github.com/kvothe1387/README_Generator"
+    "demo": "https://kvothe1387.github.io/Tenzies/",
+    "source": "https://github.com/kvothe1387/Tenzies"
   }
 ]
