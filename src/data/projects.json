@@ -20,12 +20,26 @@
     "description": "A personal travel diary built with React and deployed on GitHub Pages. This single-page application showcases my travel experiences.",
     "skills": [
       "React",
-      "JavaScript",
-      "CSS",
+      "Html-css-javascript",
+      "Conditional Rendering",
       "GitHub Pages"
     ],
     "demo": "https://kvothe1387.github.io/Travel-Journal/",
     "source": "https://github.com/kvothe1387/Travel-Journal"
+  },
+  {
+    "title": "Bored Bot",
+    "imageSrc": "projects/boredbot.png",
+    "description": "A fun and interactive web application that helps cure your boredom by suggesting random activities to do!",
+    "skills": [
+      "Random Activity Generator",
+      "Dynamic Theming",
+      "Responsive Design",
+      "Interactive Animations",
+      "Bored API"
+    ],
+    "demo": "https://kvothe1387.github.io/Bored-Bot/",
+    "source": "https://github.com/kvothe1387/Bored-Bot"
   },
   {
     "title": "Kanban Board",
@@ -42,7 +56,156 @@
     "source": "https://github.com/kvothe1387/Kanban_Board"
   },
   {
-    "title": "Quiz Guy",
+    "title": "Learning Journal",
+    "imageSrc": "projects/learningjournal.png",
+    "description": "A responsive personal blog website documenting a web development learning journey. Built with HTML, CSS, and modern responsive design principles.",
+    "skills": [
+      "Fluid Typography",
+      "Multiple Pages",
+      "CSS Grid",
+      "Responsive Design",
+      "Flexbox",
+      "Interactive Elements"
+    ],
+    "demo": "https://learning-journal1387.netlify.app/",
+    "source": "https://github.com/kvothe1387/Journal-Learning"
+  },
+  {
+    "title": "BlogSpace",
+    "imageSrc": "projects/blogspace.png",
+    "description": "BlogSpace is a clean, minimalist blogging platform that lets users quickly share thoughts and stories. Perfect for writers, bloggers, or anyone who wants a simple way to publish content without the complexity of traditional blogging platforms.",
+    "skills": [
+      "Realtime Rendering",
+      "Mobile Responsive",
+      "Fetch"
+    ],
+    "demo": "https://kvothe1387.github.io/BlogSpace/",
+    "source": "https://github.com/kvothe1387/BlogSpace"
+  },
+  {
+    "title": "War Card Game",
+    "imageSrc": "projects/war.png",
+    "description": "A web-based implementation of the classic card game War built with vanilla JavaScript, HTML, and CSS. Challenge the computer in this simple yet engaging card game where the highest card wins!",
+    "skills": [
+      "Async API",
+      "Realtime Scoring",
+      "Card Counter",
+      "Error Handling",
+      "Game State Management"
+    ],
+    "demo": "https://kvothe1387.github.io/War-asyncJS/",
+    "source": "https://github.com/kvothe1387/War-asyncJS"
+  },
+  {
+    "title": "Twimba— X Clone",
+    "imageSrc": "projects/twimba.png",
+    "description": "A Twitter-like social media application built with vanilla JavaScript, HTML, and CSS.",
+    "skills": [
+      "HTML-CSS-Javascript",
+      "UUID",
+      "Responsive Design",
+      "Dynamic Feed"
+    ],
+    "demo": "https://kvothe1387.github.io/Twimba/",
+    "source": "https://github.com/kvothe1387/Twimba"
+  },
+  {
+    "title": "Tenzies",
+    "imageSrc": "projects/tenzies.png",
+    "description": "A simple yet addictive game where you roll dice until all of them show the same value. You can click on individual dice to 'hold' them between rolls, gradually working towards getting all ten dice to display the same number.",
+    "skills": [
+      "React",
+      "CSS Grid",
+      "HTML-Javascript",
+      "nanoid"
+    ],
+    "demo": "https://kvothe1387.github.io/Tenzies/",
+    "source": "https://github.com/kvothe1387/Tenzies"
+  },
+  {
+    "title": "NFT Site",
+    "imageSrc": "projects/nftsite.png",
+    "description": "A satirical landing page for a fictional NFT marketplace that humorously presents overpriced digital assets. This responsive website showcases modern web development practices while poking fun at the NFT craze.",
+    "skills": [
+      "HTML-CSS-Javascript",
+      "Responsive Design",
+      "Interactive Elements"
+    ],
+    "demo": "https://kvothe1387.github.io/responsive-NFT-site/",
+    "source": "https://github.com/kvothe1387/responsive-NFT-site"
+  },
+  {
+    "title": "Purrfect Meme Picker",
+    "imageSrc": "projects/memepicker.png",
+    "description": "A delightful web application that helps you find the perfect cat meme based on your current emotion! Whether you're feeling moody, happy, confused, or anything in between, Pumpkin has got the right cat image for you.",
+    "skills": [
+      "HTML-CSS-Javascript",
+      "Smart Filtering",
+      "Responsive Modal"
+    ],
+    "demo": "https://kvothe1387.github.io/Purrfect-meme-picker/",
+    "source": "https://github.com/kvothe1387/Purrfect-meme-picker"
+  },
+  {
+    "title": "Science Stream",
+    "imageSrc": "projects/scienceblog.png",
+    "description": "A modern, responsive science news aggregation website featuring articles across multiple scientific disciplines including technology, environment, NASA discoveries, physics, and health.",
+    "skills": [
+      "Responsive Design",
+      "Grid-Based Layout",
+      "Aria Labels",
+      "HTML-CSS-Javascript"
+    ],
+    "demo": "https://kvothe1387.github.io/SciStream/",
+    "source": "https://github.com/kvothe1387/SciStream"
+  },
+  {
+    "title": "Worst Cookie Consent",
+    "imageSrc": "projects/badcookie.png",
+    "description": "A satirical web project that parodies deceptive online marketing tactics and sketchy data collection practices commonly found on dubious coding course websites.",
+    "skills": [
+      "HTML-CSS-Javascript"
+    ],
+    "demo": "https://kvothe1387.github.io/worst-cookie-consent/",
+    "source": "https://github.com/kvothe1387/worst-cookie-consent"
+  },
+  {
+    "title": "Leads Tracker Mobile App",
+    "imageSrc": "projects/leadsTracker.png",
+    "description": "A simple, lightweight web application for saving and managing website URLs. Perfect for sales representatives, recruiters, or anyone who needs to keep track of important web links.",
+    "skills": [
+      "Firebase-Realtime-Database",
+      "HTML-CSS-Javascript"
+    ],
+    "demo": "https://leads-tracker-app-mccullough.netlify.app/",
+    "source": "https://github.com/kvothe1387/Leads-Tracker-Mobile-App"
+  },
+  {
+    "title": "Chrome Ext Leads Tracker",
+    "imageSrc": "projects/chrome-ext.png",
+    "description": "A simple Chrome extension that allows you to save important URLs/leads for later reference. Perfect for sales professionals, researchers, or anyone who needs to keep track of websites they visit.",
+    "skills": [
+      "Chrom Ext",
+      "HTML-CSS-Javascript"
+    ],
+    "source": "https://github.com/kvothe1387/Lead-Tracker-Chrome-ext"
+  },
+  {
+    "title": "Social Network API",
+    "imageSrc": "projects/project.png",
+    "description": "Developed a RESTful API for social networking features including user authentication, friend connections, and post management.",
+    "skills": [
+      "TypeScript",
+      "API",
+      "MongoDB",
+      "Express",
+      "React",
+      "Node"
+    ],
+    "source": "https://github.com/kvothe1387/Social_Network_API"
+  },
+  {
+    "title": "Tech Quiz Game",
     "imageSrc": "projects/project.png",
     "description": "An interactive tech quiz application with end-to-end (E2E) and component testing using Cypress.",
     "skills": [
@@ -53,21 +216,7 @@
       "React",
       "Node"
     ],
-    "source": "https://github.com/kvothe1387/Quiz-Cypress-Testing"
-  },
-  {
-    "title": "Social Network API",
-    "imageSrc": "projects/project.png",
-    "description": "Developed a RESTful API for social networking features including user authentication, friend connections, and post management.",
-    "skills": [
-      "TypeScript",
-      "MongoDB",
-      "Express",
-      "React",
-      "Node"
-    ],
-    "demo": "https://drive.google.com/file/d/1eERLrUSetNTFRvUgIdEQjqa0rgHf0RTn/view",
-    "source": "https://github.com/kvothe1387/Social_Network_API"
+    "source": "https://github.com/kvothe1387/Quiz_guy"
   },
   {
     "title": "Takeout Menu & Order System",
@@ -76,7 +225,6 @@
     "skills": [
       "Python"
     ],
-    "demo": "https://drive.google.com/file/d/1iLQatd4tK6LEkHisU3DkvfU8ms4OEyYe/view",
     "source": "https://github.com/kvothe1387/Takeout-menu-order-system"
   },
   {
@@ -89,19 +237,6 @@
       "Node",
       "Inquirer"
     ],
-    "demo": "https://drive.google.com/file/d/1iLQatd4tK6LEkHisU3DkvfU8ms4OEyYe/view",
     "source": "https://github.com/kvothe1387/Employee-SQL-Tracker"
-  },
-  {
-    "title": "Tenzies",
-    "imageSrc": "projects/tenzies.png",
-    "description": "A simple yet addictive game where you roll dice until all of them show the same value. You can click on individual dice to 'hold' them between rolls, gradually working towards getting all ten dice to display the same number.",
-    "skills": [
-      "React",
-      "JavaScript",
-      "CSS"
-    ],
-    "demo": "https://kvothe1387.github.io/Tenzies/",
-    "source": "https://github.com/kvothe1387/Tenzies"
   }
 ]
