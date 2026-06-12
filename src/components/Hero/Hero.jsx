@@ -14,10 +14,11 @@ export const Hero = () => {
             className={styles.heroImg}
           />
           <div className={styles.textContent}>
-            <p className={styles.eyebrow}>Front-End Developer · Junior Web Developer · Software Developer</p>
+            <p className={styles.eyebrow}>Front-End Developer · Kansas City, MO</p>
             <h1 className={styles.title}>David McCullough</h1>
             <p className={styles.description}>
-              Front-end and software development professional with hands-on training in JavaScript, React, TypeScript, Node.js, SQL, REST APIs, GraphQL, and responsive design. Bringing a strong operations leadership background with transferable strengths in problem-solving, systems thinking, communication, user experience, and process improvement.
+              16 years running high-volume operations taught me how systems break and how to fix them.
+              Now I build the software side — JavaScript, React, TypeScript, Node.js, and full-stack web applications.
             </p>
             <div className={styles.ctaRow}>
               <a
@@ -48,7 +49,11 @@ export const Hero = () => {
         </div>
 
         <div className={styles.stackRow}>
-          {["JavaScript", "React", "TypeScript", "Git / GitHub", "Node.js", "Express.js", "SQL", "MongoDB", "REST APIs", "GraphQL", "HTML & CSS"].map((tech) => (
+          {[
+            "JavaScript", "React", "TypeScript", "Git / GitHub",
+            "Node.js", "Express.js", "SQL", "MongoDB",
+            "REST APIs", "GraphQL", "HTML & CSS",
+          ].map((tech) => (
             <span key={tech} className={styles.stackPill}>{tech}</span>
           ))}
         </div>

@@ -5,8 +5,6 @@
   --color-secondary: #19376d;
   --color-dark: #0b2447;
   --color-bg: #04152d;
-
-  /* New variables */
   --color-accent: #6478d3;
   --color-success: #4caf50;
   --color-error: #f44336;
@@ -17,6 +15,11 @@
   --space-md: 20px;
   --space-lg: 40px;
   --space-xl: 80px;
+
+  /* Section rhythm — every section uses these for top/bottom padding */
+  --section-pad-top: 80px;
+  --section-pad-bottom: 60px;
+  --section-pad-x: 10%;
 
   /* Typography */
   --font-size-xs: 12px;

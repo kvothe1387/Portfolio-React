@@ -1,9 +1,8 @@
 @import "../../vars.css";
 
 .container {
-  margin-top: 80px;
+  padding: 80px 10% 60px;
   color: var(--color-text);
-  padding: 0 10% 60px;
   border-top: 1px solid rgba(255, 255, 255, 0.06);
 }
 
@@ -14,7 +13,6 @@
   text-transform: uppercase;
   color: var(--color-primary);
   margin-bottom: 10px;
-  padding-top: 60px;
 }
 
 .sectionSub {
@@ -31,9 +29,34 @@
   width: 100%;
 }
 
+.toggleRow {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.toggleBtn {
+  background: transparent;
+  color: var(--color-text);
+  border: 1.5px solid rgba(87, 108, 188, 0.4);
+  border-radius: 24px;
+  padding: 10px 28px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color 0.25s ease, background-color 0.25s ease, transform 0.2s ease;
+  font-family: inherit;
+}
+
+.toggleBtn:hover {
+  border-color: var(--color-primary);
+  background-color: rgba(87, 108, 188, 0.1);
+  transform: translateY(-2px);
+}
+
 @media screen and (max-width: 768px) {
   .container {
-    padding: 0 5% 40px;
+    padding: 60px 5% 40px;
   }
 
   .projects {

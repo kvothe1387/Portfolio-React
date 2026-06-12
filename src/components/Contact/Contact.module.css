@@ -6,7 +6,7 @@
   background-color: var(--color-secondary);
   border-top: 1px solid rgba(87, 108, 188, 0.25);
   width: 100vw;
-  padding: 60px 10%;
+  padding: 25px 0;
 }
 
 .inner {

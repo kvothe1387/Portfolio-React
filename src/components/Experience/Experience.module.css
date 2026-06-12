@@ -2,7 +2,7 @@
 
 .container {
   color: var(--color-text);
-  padding: 60px 10% 0;
+  padding: 80px 10% 60px;
   border-top: 1px solid rgba(255, 255, 255, 0.06);
 }
 
@@ -15,80 +15,31 @@
   margin-bottom: 36px;
 }
 
-.content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 40px;
-}
-
-.skills {
-  width: 42%;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 28px;
-  align-content: flex-start;
-}
-
-.skillImageContainer {
-  background-color: var(--color-secondary);
-  border-radius: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100px;
-  height: 100px;
-}
-
-.skillImageContainer img {
-  width: 60px;
-}
-
-.skillItem {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  transition: transform 0.2s ease;
-  cursor: default;
-}
-
-.skillItem:hover {
-  transform: translateY(-4px);
-}
-
-.skillItem p {
-  font-size: 14px;
-  font-weight: 500;
-  color: rgba(255, 255, 255, 0.8);
-}
-
 .history {
-  width: 55%;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 16px;
   list-style: none;
+  max-width: 860px;
 }
 
 .historyItem {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 16px;
-  background: rgba(25, 55, 109, 0.35);
-  border: 1px solid rgba(87, 108, 188, 0.18);
-  border-radius: 12px;
-  padding: 20px;
-  transition: border-color 0.25s ease;
+  background: rgba(25, 55, 109, 0.25);
+  border: 1px solid rgba(87, 108, 188, 0.15);
+  border-left: 3px solid var(--color-primary);
+  border-radius: 0 12px 12px 0;
+  padding: 20px 20px 20px 22px;
+  transition: border-color 0.25s ease, background 0.25s ease;
 }
 
 .historyItem:hover {
   border-color: rgba(87, 108, 188, 0.4);
+  border-left-color: var(--color-accent);
+  background: rgba(25, 55, 109, 0.4);
 }
 
 .historyItemDetails h3 {
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 600;
   margin-bottom: 4px;
   color: var(--color-text);
@@ -117,21 +68,6 @@
 
 @media screen and (max-width: 830px) {
   .container {
-    padding: 50px 5% 0;
-  }
-
-  .content {
-    flex-direction: column;
-    gap: 40px;
-  }
-
-  .skills {
-    width: 100%;
-    justify-content: center;
-  }
-
-  .history {
-    width: 100%;
-    gap: 12px;
+    padding: 60px 5% 40px;
   }
 }

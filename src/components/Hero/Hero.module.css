@@ -7,7 +7,7 @@
   align-items: center;
   margin-top: 80px;
   z-index: 1;
-  padding: 60px 10% 40px;
+  padding: 80px 10% 60px;
 }
 
 .content {
@@ -75,11 +75,11 @@
 }
 
 .description {
-  font-size: 17px;
+  font-size: 18px;
   font-family: var(--font-roboto);
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.78);
-  max-width: 680px;
+  max-width: 620px;
   margin-bottom: 28px;
 }
 
@@ -132,7 +132,7 @@
 
 @media screen and (max-width: 768px) {
   .container {
-    padding: 60px 5% 30px;
+    padding: 60px 5% 40px;
     margin-top: 70px;
   }
 

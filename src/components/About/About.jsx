@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "./About.module.css";
+import skills from "../../data/skills.json";
+import { getImageUrl } from "../../utils";
 
 export const About = () => {
   return (
@@ -7,7 +9,6 @@ export const About = () => {
       <h2 className={styles.title}>About Me</h2>
 
       <div className={styles.grid}>
-
         <div className={styles.card}>
           <span className={styles.cardIcon}>🖥️</span>
           <div>
@@ -39,7 +40,20 @@ export const About = () => {
             <p>16 years in high-volume restaurant operations — managing teams, reducing turnover, and driving measurable outcomes. Those same instincts for systems thinking, process improvement, and people development carry directly into engineering work.</p>
           </div>
         </div>
+      </div>
 
+      <div className={styles.skillsRow}>
+        <p className={styles.skillsLabel}>Tools & technologies</p>
+        <div className={styles.skills}>
+          {skills.map((skill, id) => (
+            <div key={id} className={styles.skillItem}>
+              <div className={styles.skillImageContainer}>
+                <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
+              </div>
+              <p>{skill.title}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

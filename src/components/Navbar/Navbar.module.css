@@ -7,7 +7,7 @@
   right: 0;
   z-index: 1000;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  padding: 15px 0;
+  padding: 14px 0;
 }
 
 .navbarScrolled {
@@ -26,27 +26,8 @@
   width: 100%;
 }
 
-.title {
-  text-decoration: none;
-  color: var(--color-text);
-  display: flex;
-  flex-direction: column;
-}
 
-.titleMain {
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 2px;
-  transition: color 0.3s ease;
-}
-
-.titleSub {
-  font-size: 14px;
-  font-weight: 400;
-  opacity: 0.8;
-}
-
-.title:hover .titleMain {
+.title:hover .titleName {
   color: var(--color-primary);
 }
 
@@ -72,7 +53,6 @@
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-/* Animation for menu button (hamburger to X) */
 .menuBtnOpen span:nth-child(1) {
   transform: rotate(-45deg) translate(-5px, 6px);
 }
@@ -102,7 +82,7 @@
 
 .menuItems a {
   color: var(--color-text);
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   text-decoration: none;
   position: relative;
@@ -111,7 +91,7 @@
 }
 
 .menuItems a::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -146,22 +126,9 @@
   display: none !important;
 }
 
-/* Mobile Styles */
 @media screen and (max-width: 830px) {
   .navbar {
     padding: 10px 0;
-  }
-
-  .title {
-    font-size: 16px;
-  }
-
-  .titleMain {
-    font-size: 18px;
-  }
-
-  .titleSub {
-    font-size: 12px;
   }
 
   .menuBtn {
@@ -201,15 +168,11 @@
 }
 
 @media screen and (max-width: 480px) {
-  .titleMain {
-    font-size: 16px;
-  }
-
-  .titleSub {
-    font-size: 10px;
-  }
-
   .navbarContainer {
     padding: 0 5%;
+  }
+
+  .titleName {
+    font-size: 16px;
   }
 }
