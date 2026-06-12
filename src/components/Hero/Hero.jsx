@@ -1,5 +1,4 @@
 import React from "react";
-
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
 
@@ -7,73 +6,53 @@ export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
+
         <div className={styles.heroHeader}>
-          <div className={styles.textContent}>
-            <h1 className={styles.title}>Hello, I'm David McCullough</h1>
-            <p className={styles.description}>
-              I'm a full-stack developer with a unique background in leadership and operational excellence. I combine meticulous attention to detail with a passion for building elegant, efficient solutions—all while developing the people around me.
-            </p>
-          </div>
           <img
             src={getImageUrl("hero/heroImage.png")}
             alt="David McCullough"
             className={styles.heroImg}
           />
+          <div className={styles.textContent}>
+            <p className={styles.eyebrow}>Front-End Developer · Junior Web Developer · Software Developer</p>
+            <h1 className={styles.title}>David McCullough</h1>
+            <p className={styles.description}>
+              Front-end and software development professional with hands-on training in JavaScript, React, TypeScript, Node.js, SQL, REST APIs, GraphQL, and responsive design. Bringing a strong operations leadership background with transferable strengths in problem-solving, systems thinking, communication, user experience, and process improvement.
+            </p>
+            <div className={styles.ctaRow}>
+              <a
+                href="https://github.com/kvothe1387"
+                className={styles.ctaSecondary}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://www.linkedin.com/in/davidmcc-webdev/"
+                className={styles.ctaSecondary}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn
+              </a>
+              <a
+                href="/assets/resume/David_McCullough_Resume.pdf"
+                className={styles.ctaSecondary}
+                download
+              >
+                Download Résumé
+              </a>
+            </div>
+          </div>
         </div>
 
-        <section className={styles.skillsSection}>
-          <div className={styles.skillsColumn}>
-            <h3 className={styles.skillsHeading}>Technical & Analytical Skills</h3>
-            <ul className={styles.skillsList}>
-              <li className={styles.skillItem}>
-                <span className={styles.skillIcon}>🔍</span>
-                <span className={styles.skillText}>Analytical thinker who thrives on discovering solutions hidden in the details</span>
-              </li>
-              <li className={styles.skillItem}>
-                <span className={styles.skillIcon}>🧩</span>
-                <span className={styles.skillText}>I excel at connecting seemingly unrelated concepts to see the bigger picture</span>
-              </li>
-              <li className={styles.skillItem}>
-                <span className={styles.skillIcon}>⚙️</span>
-                <span className={styles.skillText}>System optimizer who transforms inefficient processes into streamlined workflows</span>
-              </li>
-              <li className={styles.skillItem}>
-                <span className={styles.skillIcon}>👨‍🏫</span>
-                <span className={styles.skillText}>Mentor and coach with a proven track record of developing high-performing teams</span>
-              </li>
-              <li className={styles.skillItem}>
-                <span className={styles.skillIcon}>📍</span>
-                <span className={styles.skillText}>Training specialist who creates effective learning pathways and development programs</span>
-              </li>
-            </ul>
-          </div>
+        <div className={styles.stackRow}>
+          {["JavaScript", "React", "TypeScript", "Git / GitHub", "Node.js", "Express.js", "SQL", "MongoDB", "REST APIs", "GraphQL", "HTML & CSS"].map((tech) => (
+            <span key={tech} className={styles.stackPill}>{tech}</span>
+          ))}
+        </div>
 
-          <div className={styles.skillsColumn}>
-            <h3 className={styles.skillsHeading}>Interpersonal & Leadership Skills</h3>
-            <ul className={styles.skillsList}>
-              <li className={styles.skillItem}>
-                <span className={styles.skillIcon}>😊</span>
-                <span className={styles.skillText}>Firm believer that the best work happens when we're enjoying what we do</span>
-              </li>
-              <li className={styles.skillItem}>
-                <span className={styles.skillIcon}>🧡</span>
-                <span className={styles.skillText}>Relationship builder who finds common ground with diverse teammates</span>
-              </li>
-              <li className={styles.skillItem}>
-                <span className={styles.skillIcon}>📊</span>
-                <span className={styles.skillText}>Data-driven decision maker with a methodical approach to problem-solving</span>
-              </li>
-              <li className={styles.skillItem}>
-                <span className={styles.skillIcon}>✨</span>
-                <span className={styles.skillText}>Creator of environments where efficiency, growth, and enjoyment coexist</span>
-              </li>
-              <li className={styles.skillItem}>
-                <span className={styles.skillIcon}>🖼️</span>
-                <span className={styles.skillText}>As M.C Escher once said, "We adore chaos because we love to produce order"</span>
-              </li>
-            </ul>
-          </div>
-        </section>
       </div>
     </section>
   );

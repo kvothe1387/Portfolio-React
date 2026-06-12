@@ -56,6 +56,43 @@
     "source": "https://github.com/kvothe1387/Kanban_Board"
   },
   {
+    "title": "Assembly: Endgame",
+    "imageSrc": "projects/assembly.png",
+    "description": "A fun word-guessing game where you must guess the word correctly to save programming languages from Assembly!",
+    "skills": [
+      "React",
+      "CLSX",
+      "State Management"
+    ],
+    "demo": "https://resplendent-fudge-531719.netlify.app/",
+    "source": "https://github.com/kvothe1387/Assembly-Endgame"
+  },
+  {
+    "title": "Tenzies",
+    "imageSrc": "projects/tenzies.png",
+    "description": "A simple yet addictive game where you roll dice until all of them show the same value. You can click on individual dice to 'hold' them between rolls, gradually working towards getting all ten dice to display the same number.",
+    "skills": [
+      "React",
+      "CSS Grid",
+      "HTML-Javascript",
+      "nanoid"
+    ],
+    "demo": "https://kvothe1387.github.io/Tenzies/",
+    "source": "https://github.com/kvothe1387/Tenzies"
+  },
+  {
+    "title": "Personal Dashboard",
+    "imageSrc": "projects/dashboard.png",
+    "description": "A beautiful, dynamic personal dashboard that displays real-time information including the current time, weather, cryptocurrency prices, and stunning background images.",
+    "skills": [
+      "API Calls",
+      "Async/Await",
+      "HTML-Javascript-CSS"
+    ],
+    "demo": "https://kvothe1387.github.io/Personal-Dashboard/",
+    "source": "https://github.com/kvothe1387/Personal-Dashboard"
+  },
+  {
     "title": "Learning Journal",
     "imageSrc": "projects/learningjournal.png",
     "description": "A responsive personal blog website documenting a web development learning journey. Built with HTML, CSS, and modern responsive design principles.",
@@ -108,19 +145,6 @@
     ],
     "demo": "https://kvothe1387.github.io/Twimba/",
     "source": "https://github.com/kvothe1387/Twimba"
-  },
-  {
-    "title": "Tenzies",
-    "imageSrc": "projects/tenzies.png",
-    "description": "A simple yet addictive game where you roll dice until all of them show the same value. You can click on individual dice to 'hold' them between rolls, gradually working towards getting all ten dice to display the same number.",
-    "skills": [
-      "React",
-      "CSS Grid",
-      "HTML-Javascript",
-      "nanoid"
-    ],
-    "demo": "https://kvothe1387.github.io/Tenzies/",
-    "source": "https://github.com/kvothe1387/Tenzies"
   },
   {
     "title": "NFT Site",
