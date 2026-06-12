@@ -1,58 +1,44 @@
 import React from "react";
 import styles from "./About.module.css";
-import { getImageUrl } from "../../utils";
 
 export const About = () => {
-
   return (
     <section className={styles.container} id="about">
       <h2 className={styles.title}>About Me</h2>
-      <div className={styles.content}>
-        <img src={getImageUrl("about/aboutImage.png")} alt="About me" className={styles.aboutImg} />
 
-        <ul className={styles.aboutItems}>
+      <div className={styles.grid}>
 
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
-              <p>I create responsive, user-friendly websites using HTML, CSS, JavaScript, React, and TypeScript. I have
-                experience with DOM manipulation, Browser APIs, and tools like GitHub Copilot.
-              </p>
-            </div>
-          </li>
+        <div className={styles.card}>
+          <span className={styles.cardIcon}>🖥️</span>
+          <div>
+            <h3>Front-End Development</h3>
+            <p>Building responsive, accessible interfaces with React, TypeScript, JavaScript, HTML, and CSS. Comfortable with DOM manipulation, component architecture, and modern tooling like GitHub Copilot.</p>
+          </div>
+        </div>
 
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
-              <p>Proficient in building efficient back-end systems and APIs with Node.js, Express, SQL, and
-                PostgreSQL. I also have experience with NoSQL databases, CI/CD pipelines, and Python
-                fundamentals, including Object-Oriented Programming.
-              </p>
-            </div>
-          </li>
+        <div className={styles.card}>
+          <span className={styles.cardIcon}>⚙️</span>
+          <div>
+            <h3>Back-End & Full-Stack</h3>
+            <p>Designing APIs and server-side logic with Node.js, Express, REST, and GraphQL. Database experience with PostgreSQL, MongoDB, Sequelize, and Mongoose. Deployed on Render, Netlify, and GitHub Pages.</p>
+          </div>
+        </div>
 
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="UI icon" />
-            <div className={styles.aboutItemText}>
-              <h3>LEGO'ing My Restaurant Career into Full-Stack Development </h3>
-              <p>Applying leadership and team management skills from the restaurant industry to build dynamic, user-friendly applications. My background in high-pressure environments enhances my problem-solving approach to coding. Recently earned my Software Development Certificate from the University of Kansas and excited to continue growing in tech!
-              </p>
-            </div>
-          </li>
+        <div className={styles.card}>
+          <span className={styles.cardIcon}>🎓</span>
+          <div>
+            <h3>UX Certificate — University of Kansas</h3>
+            <p>Completed 240 hours of full-stack training at the UX Boot Camp (2024). Coursework covered MERN and PERN stacks, MVC architecture, Agile, testing with Cypress, and REST and GraphQL API design.</p>
+          </div>
+        </div>
 
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Certified Software Developer</h3>
-              <p>Graduated from the University of Kansas Full-Stack Web Development Bootcamp, specializing
-                in modern technologies like JavaScript, React, Node.js, Express, and SQL.
-              </p>
-            </div>
-          </li>
-
-        </ul>
+        <div className={styles.card}>
+          <span className={styles.cardIcon}>🧩</span>
+          <div>
+            <h3>Leadership Translated to Tech</h3>
+            <p>16 years in high-volume restaurant operations — managing teams, reducing turnover, and driving measurable outcomes. Those same instincts for systems thinking, process improvement, and people development carry directly into engineering work.</p>
+          </div>
+        </div>
 
       </div>
     </section>

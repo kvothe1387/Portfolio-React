@@ -2,111 +2,71 @@
 
 .container {
   position: relative;
-  background-color: rgba(12, 12, 12, .6);
-  border-radius: 15px;
-  padding: 73px;
-  margin-top: 30px;
+  padding: 70px 10%;
+  margin-top: 20px;
   z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .title {
   color: var(--color-text);
-  font-size: 35px;
-  font-weight: 700;
-  letter-spacing: 1.75px;
-  text-transform: uppercase;
-}
-
-.content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.aboutItems {
-  color: var(--color-text);
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-.aboutItem {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  border-radius: 20px;
-  list-style: none;
-  padding: 15px;
-  background-image: linear-gradient(90deg,
-      rgba(165, 215, 232, 0.42) 0%,
-      rgba(255, 255, 255, 0) 100%);
-  background-size: 0 100%;
-  background-repeat: no-repeat;
-  transition: 0.4s;
-}
-
-.aboutItem:hover {
-  background-size: 100% 100%;
-}
-
-.aboutItem h3 {
-  font-size: 25px;
+  font-size: 13px;
   font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin-bottom: 36px;
 }
 
-.aboutItem p {
-  font-size: 20px;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
 }
 
-.aboutImg {
-  width: 35%;
-  max-height: 250px;
-  border-radius: 50px;
-  z-index: 1;
-  animation-name: floating;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 18px;
+  background: rgba(25, 55, 109, 0.35);
+  border: 1px solid rgba(87, 108, 188, 0.18);
+  border-radius: 14px;
+  padding: 24px;
+  transition: border-color 0.25s ease, background 0.25s ease;
 }
 
-@keyframes floating {
-  0% {
-    transform: translate(0, 0px);
-  }
-
-  50% {
-    transform: translate(0, 10px);
-  }
-
-  100% {
-    transform: translate(0, 0px);
-  }
+.card:hover {
+  border-color: rgba(87, 108, 188, 0.45);
+  background: rgba(25, 55, 109, 0.5);
 }
 
-@media screen and (max-width: 830px) {
+.cardIcon {
+  font-size: 26px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.card h3 {
+  color: var(--color-text);
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.card p {
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+@media screen and (max-width: 768px) {
   .container {
-    background-color: transparent;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 50px 5%;
   }
 
-  .content {
-    flex-direction: column;
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
   }
-
-  .aboutImage {
-    display: none;
-  }
-
-  .aboutItems {
-    margin-top: 29px;
-  }
-
-  .aboutItem {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
 }
