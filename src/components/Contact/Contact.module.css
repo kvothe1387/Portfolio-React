@@ -2,26 +2,57 @@
 
 .container {
   color: var(--color-text);
-  margin-top: 120px;
+  margin-top: 100px;
   background-color: var(--color-secondary);
+  border-top: 1px solid rgba(87, 108, 188, 0.25);
+  width: 100vw;
+  padding: 60px 10%;
+}
+
+.inner {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  width: 100vw;
-  padding: 58px 10%;
-  gap: 10px;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
-.text h2 {
-  font-size: 80px;
+.left {
+  flex: 1;
+  max-width: 480px;
+}
+
+.heading {
+  font-size: 36px;
   font-weight: 700;
-  letter-spacing: 4px;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
 }
 
-.text p {
-  font-size: 40px;
-  font-weight: 400;
-  letter-spacing: 2px;
+.sub {
+  font-size: 16px;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 28px;
+}
+
+.resumeBtn {
+  display: inline-block;
+  background-color: var(--color-primary);
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 24px;
+  border-radius: 24px;
+  transition: background-color 0.25s ease, transform 0.2s ease;
+}
+
+.resumeBtn:hover {
+  background-color: var(--color-accent);
+  transform: translateY(-2px);
 }
 
 .links {
@@ -29,38 +60,45 @@
   flex-direction: column;
   align-items: flex-start;
   list-style: none;
-  gap: 26px;
+  gap: 22px;
+  padding-top: 4px;
 }
 
 .link {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 16px;
+}
+
+.link img {
+  width: 22px;
+  height: 22px;
+  opacity: 0.85;
 }
 
 .link a {
-  color: var(--color-text);
+  color: rgba(255, 255, 255, 0.85);
   text-decoration: none;
-  font-size: 30px;
+  font-size: 16px;
   font-weight: 400;
-  letter-spacing: 1.5px;
+  transition: color 0.2s ease;
 }
 
+.link a:hover {
+  color: var(--color-text);
+}
 
-
-@media screen and (max-width: 830px) {
-  .container {
+@media screen and (max-width: 768px) {
+  .inner {
     flex-direction: column;
-    gap: 23px;
+    gap: 40px;
   }
 
-  .text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .heading {
+    font-size: 28px;
   }
 
-  .links {
-    align-items: center;
+  .left {
+    max-width: 100%;
   }
 }
