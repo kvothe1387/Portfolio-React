@@ -1,18 +1,42 @@
 [
   {
+    "role": "Catering Hot Prep Cook",
+    "organization": "Jack Stack Barbecue",
+    "startDate": "Jul, 2021",
+    "endDate": "May, 2026",
+    "experiences": [
+      "Large-Scale Catering Execution: Coordinated preparation support for high-volume catering orders while maintaining company recipe standards, quality expectations, and event timelines.",
+      "Order Accuracy and Process Control: Reviewed Banquet Event Orders and delivery sheets to identify missing details before fulfillment and reduce preventable service issues."
+    ]
+  },
+  {
     "role": "Restaurant Training Manager",
-    "organization": "Smashburger",
+    "organization": "Smashburger Corporation",
     "startDate": "Oct, 2013",
     "endDate": "Oct, 2020",
     "experiences": [
-      "Achieved 3rd lowest turnover rate in East division (150+ stores) during first quarter as Store Manager.",
-      "Recognized with High 5 Achiever Award for outstanding performance and leadership excellence.",
-      "Led cross-functional teams of 20+ staff members, achieving top 3% performance ranking among 300+ locations.",
-      "Created and executed training programs leading to successful promotion of 4 assistant managers.",
-      "Developed and implemented digital training systems, reducing onboarding time by 25%.",
-      "Orchestrated 13 successful fundraising events in partnership with K-State Greek organizations.",
-      "Facilitated 2 successful new store openings, including training and development of 50+ staff members."
-    ],
-    "imageSrc": "history/smashburger.png"
+      "3rd Lowest Employee Turnover Among 150 East Division Locations: Improved retention outcomes through structured coaching, team accountability, leadership development, and consistent performance expectations.",
+      "Top 10 Sales Growth and Customer Satisfaction at Multiple Locations: Strengthened store performance by improving service consistency, operational discipline, issue resolution, and front-line team execution.",
+      "3 Assistant Manager Promotions: Developed emerging leaders into successful General Manager roles while supporting training programs, new restaurant openings, and underperforming location improvement."
+    ]
+  },
+  {
+    "role": "Assistant Store Manager",
+    "organization": "Taco Bell Corporation",
+    "startDate": "Oct, 2010",
+    "endDate": "Aug, 2013",
+    "experiences": [
+      "Operational Continuity: Oversaw digital inventory systems and reporting tools while troubleshooting issues that affected store execution and workflow consistency.",
+      "Team Leadership Support: Supported shift operations through staff coordination, customer service oversight, performance expectations, and front-line problem-solving."
+    ]
+  },
+  {
+    "role": "Assistant Store Manager",
+    "organization": "McDonald's Corporation",
+    "startDate": "May, 2001",
+    "endDate": "Sep, 2010",
+    "experiences": [
+      "Early Leadership Promotion: Earned promotion to Shift Leader at age 18, reflecting reliability, leadership capability, and consistent operational performance."
+    ]
   }
 ]

@@ -4,32 +4,16 @@
     "imageSrc": "skills/react.png"
   },
   {
-    "title": "TypeScript",
-    "imageSrc": "skills/typescript.png"
-  },
-  {
     "title": "JavaScript",
     "imageSrc": "skills/javascript.png"
   },
   {
-    "title": "Node.js",
-    "imageSrc": "skills/node.png"
+    "title": "TypeScript",
+    "imageSrc": "skills/typescript.png"
   },
   {
-    "title": "Express.js",
-    "imageSrc": "skills/express.png"
-  },
-  {
-    "title": "GraphQL",
-    "imageSrc": "skills/graphql.png"
-  },
-  {
-    "title": "PostgreSQL",
-    "imageSrc": "skills/postgres.png"
-  },
-  {
-    "title": "MongoDB",
-    "imageSrc": "skills/mongodb.png"
+    "title": "GitHub",
+    "imageSrc": "skills/github.png"
   },
   {
     "title": "HTML",
@@ -40,8 +24,24 @@
     "imageSrc": "skills/css.png"
   },
   {
-    "title": "Git",
-    "imageSrc": "skills/git.png"
+    "title": "Node.js",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "Express.js",
+    "imageSrc": "skills/express.svg"
+  },
+  {
+    "title": "PostgreSQL",
+    "imageSrc": "skills/postgres.png"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png"
+  },
+  {
+    "title": "GraphQL",
+    "imageSrc": "skills/graphql.png"
   },
   {
     "title": "Python",
