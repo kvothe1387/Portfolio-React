@@ -1,7 +1,7 @@
 @import "../../vars.css";
 
 .container {
-  padding: 80px 10% 60px;
+  padding: 50px 10% 30px;
   color: var(--color-text);
   border-top: 1px solid rgba(255, 255, 255, 0.06);
 }

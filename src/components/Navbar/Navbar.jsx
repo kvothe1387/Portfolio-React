@@ -42,8 +42,6 @@ export const Navbar = () => {
       role="navigation"
     >
       <div className={styles.navbarContainer}>
-
-
         <div className={styles.menu}>
           <button
             className={`${styles.menuBtn} ${menuOpen ? styles.menuBtnOpen : ""}`}

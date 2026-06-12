@@ -2,11 +2,10 @@
 
 .container {
   color: var(--color-text);
-  margin-top: 100px;
   background-color: var(--color-secondary);
   border-top: 1px solid rgba(87, 108, 188, 0.25);
   width: 100vw;
-  padding: 25px 0;
+  padding: 30px 10%;
 }
 
 .inner {
@@ -89,9 +88,13 @@
 }
 
 @media screen and (max-width: 768px) {
+  .container {
+    padding: 26px 5%;
+  }
+
   .inner {
     flex-direction: column;
-    gap: 40px;
+    gap: 36px;
   }
 
   .heading {

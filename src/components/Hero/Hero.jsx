@@ -17,8 +17,10 @@ export const Hero = () => {
             <p className={styles.eyebrow}>Front-End Developer · Kansas City, MO</p>
             <h1 className={styles.title}>David McCullough</h1>
             <p className={styles.description}>
-              16 years running high-volume operations taught me how systems break and how to fix them.
-              Now I build the software side — JavaScript, React, TypeScript, Node.js, and full-stack web applications.
+              Front-end and software development professional with hands-on training in JavaScript, React,
+              TypeScript, Node.js, SQL, REST APIs, GraphQL, and responsive design. Bringing a strong
+              operations leadership background with transferable strengths in problem-solving, systems
+              thinking, communication, user experience, and process improvement.
             </p>
             <div className={styles.ctaRow}>
               <a
