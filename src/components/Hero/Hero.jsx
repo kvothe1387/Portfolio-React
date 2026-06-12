@@ -50,15 +50,7 @@ export const Hero = () => {
           </div>
         </div>
 
-        <div className={styles.stackRow}>
-          {[
-            "JavaScript", "React", "TypeScript", "Git / GitHub",
-            "Node.js", "Express.js", "SQL", "MongoDB",
-            "REST APIs", "GraphQL", "HTML & CSS",
-          ].map((tech) => (
-            <span key={tech} className={styles.stackPill}>{tech}</span>
-          ))}
-        </div>
+
 
       </div>
     </section>

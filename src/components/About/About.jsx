@@ -20,24 +20,24 @@ export const About = () => {
         <div className={styles.card}>
           <span className={styles.cardIcon}>⚙️</span>
           <div>
-            <h3>Back-End & Full-Stack</h3>
-            <p>Designing APIs and server-side logic with Node.js, Express, REST, and GraphQL. Database experience with PostgreSQL, MongoDB, Sequelize, and Mongoose. Deployed on Render, Netlify, and GitHub Pages.</p>
+            <h3>Formal Training + Self-Directed Growth</h3>
+            <p>Completed 240 hours of full-stack training at the University of Kansas (90% grade, 24 CEU) covering MERN/PERN stacks, MVC, Agile, Cypress, and API design. Followed that with Scrimba's Advanced JavaScript and Advanced React coursework through 2025–2026.</p>
           </div>
         </div>
 
         <div className={styles.card}>
           <span className={styles.cardIcon}>🎓</span>
           <div>
-            <h3>UX Certificate — University of Kansas</h3>
-            <p>Completed 240 hours of full-stack training at the UX Boot Camp (2024). Coursework covered MERN and PERN stacks, MVC architecture, Agile, testing with Cypress, and REST and GraphQL API design.</p>
+            <h3>Outcomes-Driven by Nature</h3>
+            <p>Ranked 3rd lowest employee turnover among 150 East Division locations at Smashburger. Achieved top-10 sales growth and customer satisfaction across multiple stores. Developed 3 assistant managers into General Manager roles. These instincts — measure it, improve it, develop people — carry directly into engineering work.</p>
           </div>
         </div>
 
         <div className={styles.card}>
           <span className={styles.cardIcon}>🧩</span>
           <div>
-            <h3>Leadership Translated to Tech</h3>
-            <p>16 years in high-volume restaurant operations — managing teams, reducing turnover, and driving measurable outcomes. Those same instincts for systems thinking, process improvement, and people development carry directly into engineering work.</p>
+            <h3>Systems Thinker, Fast Troubleshooter</h3>
+            <p>16 years diagnosing and fixing operational breakdowns in real time — inventory systems, team execution, service consistency — built a problem-solving instinct that maps cleanly onto debugging, code architecture, and building software that actually holds up under pressure.</p>
           </div>
         </div>
       </div>
